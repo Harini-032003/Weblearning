@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>text manipulation</title>
+  </head>
+  <body>
+    <h1></h1>
+    <script>
+      document.write(document.querySelector.innerHTML="<h1>hello harini!!</h1>"); //innerhtml retrives whatever inside html element. even if the text is underlined,it retrieves the underlined text. and also while manipulating we can add html tags to design it. it retrieves whatever inside the html element including html tags present inside the element
+
+      document.write(document.querySelector.textcontent="hello harini!!");
+      // but textcontent retrieves only the text and not any html tags inside the html element. even if the text is underlined, it displays only the text,not underlining it. also while manipulating, no html tags can be used to design or manipulate it. it extracts only the text inside the html element.
+
+      //getting and setting attributes
+      //try to code the below code in console.
+      // <a href="https://google.com">google</a>
+      //whatever that is inside the tag. inside the tag in the sense, not innerhtml.(i.e<...>),other than the tag name itself are attributes.
+      // to get attribute
+      //document.queryselector("a").getattribute  (run in console,wont work here)
+      //displays a list of attributes in the html tag
+      //to set attribute
+      //document.queryselector("a").setattribute("href","https://bing.com") //sets the value of href to new link than google link.(key,value)
+      </script>
+  </body>
+</html>

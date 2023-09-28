@@ -1,0 +1,8 @@
+.big-title{  /*defining a class to add this class in jquery*/
+  color:yellow;
+  font-size:10rem;
+  font-family:cursive;
+}
+.margin-title{
+  margin:50px;
+}

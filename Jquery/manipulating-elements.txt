@@ -1,0 +1,19 @@
+$("h1").before("<button>click</button>") (before method)
+
+representation:
+  <button>click</buuton> <h1>Hi</h1>
+ 
+ $("h1").after("<button>click</button>") (after method) 
+ 
+ representation:
+<h1>Hi</h1> <button>click</button>
+
+$("h1").prepend("<button>click</button>") (prepend method)
+
+representation:
+<h1> <button>click</button> Hi</h1>
+
+$("h1").append("<button>click</button>") (append method)
+
+representation:
+<h1>Hi <button>click</button>  </h1>

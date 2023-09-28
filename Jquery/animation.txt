@@ -1,0 +1,7 @@
+$("button").on("click",function(){
+  $("h1").hideToggle();             //use showToggle,fadeToggle,slideToggle,fadeIn,fadeOut
+});
+
+$("button").on("click",function(){
+  $("h1").animate({margin:"20"});            //can animate only the css properties which have numeric value
+});
