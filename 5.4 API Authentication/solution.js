@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
 
+//refer index.js for detailed explanation of full code
 // TODO: Replace the values below with your own before running this file.
 const yourUsername = "harini";
 const yourPassword = "yuva";
