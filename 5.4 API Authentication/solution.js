@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
 
+//refer index.js for detailed explanation of full code
 // TODO: Replace the values below with your own before running this file.
 const yourUsername = "harini";
 const yourPassword = "yuva";
@@ -24,15 +25,15 @@ app.get("/noAuth", async (req, res) => {
   }
 });
 
-app.get("/basicAuth", async (req, res) => {
+app.get("/basicAuth", async (req, res) => { //basic auth is not working. can't find the issue.
   try {
     const result = await axios.get(
       API_URL + "/all?page=2",
       {},
       {
         auth: {
-          Username: yourUsername,
-          Password: yourPassword,
+          username: yourUsername,
+          password: yourPassword,
         },
       }
     );
